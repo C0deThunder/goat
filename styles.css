@@ -1,0 +1,39 @@
+h1, h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+table, th {
+    background-color: red;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+}
+.topnav {
+overflow: hidden;
+background-color: red;
+}
+
+.topnav a {
+float: left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: darkred;
+color: white;
+}
+
+.topnav a.active {
+background-color: black;
+color: red;
+}
