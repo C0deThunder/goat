@@ -8,11 +8,9 @@ body {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-table, th {
-    background-color: blue;
+table {
     height: 50px;
-    width: 100%;
-    text-align: left;
+    max-width: 100%;
 }
 .button {
     height: 60px;

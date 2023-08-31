@@ -16,6 +16,7 @@ th {
 }
 table {
     border: 5px outset aqua;
+    max-width: 100%;
 }
 td {
     border: 3px inset aqua;
