@@ -1,21 +1,41 @@
-h1, h3 {
+.back {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -10;
+    margin: 0px;
+    padding: 0px;
+}
+.h1 {
     text-align: center;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-body {
+.body {
     background-color: black;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-table, th {
-    background-color: red;
-    height: 50px;
-    width: 100%;
-    text-align: left;
+.images {
+    height: 30vw;
+    width: 100vw;
+    background-color: black;
+    position: relative;
 }
-td {
-    max-width: 100%;
+.img1 img{
+    width: 15vw;
+    height: 20vw;
+    background-color: white;
+    position: absolute;
+    left: 20vw;
+}
+.img2 img{
+    width: 15vw;
+    height: 20vw;
+    background-color: white;
+    position: absolute;
+    right: 20vw;
 }
 .topnav {
 overflow: hidden;
